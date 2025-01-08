@@ -15,7 +15,7 @@ class App:
         pg.display.set_caption(f'{self.clock.get_fps() : .1f}') 
 
     def draw(self) -> None:
-        self.game.update()
+        self.game.draw()
         pg.display.flip()
         
     def get_time(self) -> None:
